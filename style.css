@@ -1,0 +1,12 @@
+:root{--ink:#161616;--soft:#555;--line:#ddd;--lime:#ddf45e}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:var(--ink);font:15px/1.7 Arial,"Apple SD Gothic Neo",sans-serif}
+main{max-width:720px;margin:0 auto;padding:48px 20px 80px}
+.logo{font-size:20px;font-weight:800;letter-spacing:-.07em}
+h1{margin:28px 0 12px;font-size:clamp(40px,10vw,64px);font-weight:800;letter-spacing:-.07em;line-height:1}
+h1 i{color:var(--lime);font-style:normal}
+h2{margin:32px 0 8px;font-size:18px;letter-spacing:-.03em}
+p,li{color:var(--soft)}
+nav{margin-top:40px;padding-top:16px;border-top:1px solid #111;font-size:13px}
+nav a{color:var(--ink);margin-right:16px}
+.logo a{color:inherit;text-decoration:none}
